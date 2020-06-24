@@ -37,17 +37,7 @@ for ($i=$redak;$i>0;$i--){
    //echo '</tr>'; 
     }
 
-
-
-
-
 ?>
-
-
 
 </body>
 </html>
-
-<?php
-
-
