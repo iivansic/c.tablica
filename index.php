@@ -27,12 +27,8 @@ $stupac=$_GET['stupac'];
     <hr/>
 <?php
 
-
-
-
-$razlika=$redak-$stupac;
 echo "<table  width ='200' style='text-align:center'  border=\"1\">";
-for ($k=$redak+1;$k<$stupac+$redak;$k++){
+for ($k=$stupac+$redak-1;$k>$redak;$k--){
     echo '<tr>','<td>', $k,'</td>', '</tr>';
 }
 for ($i=$redak;$i>0;$i--){
